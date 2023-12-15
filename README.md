@@ -1,6 +1,6 @@
 # Conditional Temporal Attention Networks for Neonatal Cortical Surface Reconstruction
 
-[![arXiv](https://img.shields.io/badge/arXiv-Paper-red.svg)](https://arxiv.org/abs/2307.11870)
+[![arXiv](https://img.shields.io/badge/arXiv-2307.11870-red.svg)](https://arxiv.org/abs/2307.11870)
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![PyTorch](https://img.shields.io/badge/PyTorch-1.7.1-brightgreen.svg)](https://pytorch.org/)
 [![PyTorch3D](https://img.shields.io/badge/PyTorch3D-0.4.0-yellow.svg)](https://pytorch3d.org/)

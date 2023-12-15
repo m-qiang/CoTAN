@@ -61,7 +61,7 @@ def load_data(args, data_split='train'):
     data_info = pd.read_csv(data_path+'combined.tsv', sep='\t')
     data_path = data_path+data_split+'/'
 
-    subject_list = sorted(os.listdir(data_path))[:5]
+    subject_list = sorted(os.listdir(data_path))
     data_list = []
 
     if surf_type == 'white':

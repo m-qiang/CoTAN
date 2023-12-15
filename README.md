@@ -1,11 +1,11 @@
 # Conditional Temporal Attention Networks for Neonatal Cortical Surface Reconstruction
 
-[![arXiv](https://img.shields.io/badge/arXiv-Paper-red.svg)](https://github.com/m-qiang/CoTAN)
+[![arXiv](https://img.shields.io/badge/arXiv-Paper-red.svg)](https://arxiv.org/abs/2307.11870)
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![PyTorch](https://img.shields.io/badge/PyTorch-1.7.1-brightgreen.svg)](https://pytorch.org/)
 [![PyTorch3D](https://img.shields.io/badge/PyTorch3D-0.4.0-yellow.svg)](https://pytorch3d.org/)
 
-This is the official PyTorch implementation of the paper: [Conditional Temporal Attention Networks for Neonatal Cortical Surface Reconstruction](https://github.com/m-qiang/CoTAN) (MICCAI 2023).
+This is the official PyTorch implementation of the paper: [Conditional Temporal Attention Networks for Neonatal Cortical Surface Reconstruction](https://conferences.miccai.org/2023/papers/136-Paper1290.html) (MICCAI 2023).
 
 ![CoTAN](./figure/architecture.png)
 

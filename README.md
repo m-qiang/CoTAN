@@ -51,7 +51,7 @@ where ```*_T2w_brain_affine.nii.gz``` is the affinely aligned T2w images, and ``
 
 
 ## Training
-To train CoTAN for left (right) white (pial) surface reconstruction, please run:
+To train CoTAN for left/right white/pial surface reconstruction, please run:
 ```
 python train.py --data_path='/YOUR_DATASET/'\
                 --model_path='./model/'\
@@ -63,7 +63,7 @@ python train.py --data_path='/YOUR_DATASET/'\
                 --n_epoch=200\
                 --device='cuda:0'
 ```
-where ```data_path``` is the directory of your dataset, ```model_path``` is the directory to save the log and checkpoints of training, ```surf_type=['wm','pial']``` is the type of the surface, ```surf_hemi==['left','right']``` is the brain hemisphere, ```data_name``` is a string to identify your dataset, ```tag ``` is a string to identify your experiments, ```step_size``` is the step size for integration, and ```n_epoch``` is the number of epochs for training. For the details of all arguments please run ```python train.py --help```.
+where ```data_path``` is the directory of your dataset, ```model_path``` is the directory to save the log and checkpoints of training, ```surf_type=['white','pial']``` is the type of the surface, ```surf_hemi=['left','right']``` is the brain hemisphere, ```data_name``` is a string to identify your dataset, ```tag``` is a string to identify your experiments, ```step_size``` is the step size for integration, and ```n_epoch``` is the number of epochs for training. For the details of all arguments please run ```python train.py --help```.
 
 ## Evaluation
 For the inference, please run:
